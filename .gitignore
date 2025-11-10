@@ -1,0 +1,9 @@
+# Ignorar el entorno virtual y archivos pesados
+venv/
+__pycache__/
+*.zip
+*.json
+*.csv
+.DS_Store
+.ipynb_checkpoints/
+%USERPROFILE%/
