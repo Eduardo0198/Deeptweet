@@ -1,8 +1,25 @@
-# Ignorar el entorno virtual y archivos pesados
-venv/
+# Python cache
 __pycache__/
-*.zip
-*.json
-*.csv
-.DS_Store
+*.pyc
+
+# Notebooks
 .ipynb_checkpoints/
+
+# Env
+venv/
+.env/
+
+# Large Files
+*.npy
+*.npz
+*.h5
+*.pkl
+*.ckpt
+*.tfrecord
+
+# Data processed
+data/processed/*
+
+# System files
+.DS_Store
+Thumbs.db
