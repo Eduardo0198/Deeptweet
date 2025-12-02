@@ -1,4 +1,5 @@
-<div align="center">
+<img width="735" height="349" alt="image" src="https://github.com/user-attachments/assets/25ba514a-3aa3-4a6c-83ae-d8422858a66d" />
+
 
 # DeepTweet – Análisis de Sentimientos con LSTM
 
