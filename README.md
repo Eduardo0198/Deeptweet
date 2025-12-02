@@ -43,13 +43,13 @@ Este documento explica **qué hace cada notebook**, qué **recibe**, qué **prod
 Es una guía completa para entender el flujo del proyecto.
 # 🧠 Pipeline General del Proyecto
 
-01_ETL_sentiment140.ipynb → genera tensores para v1
-02_Model_LSTM_Base.ipynb → entrena modelo v1
-03_ETL_modern.ipynb → genera tensores para v2
-04_Model_FineTuning_Modern.ipynb → entrena modelo v2 y usa el modelo v1
-05_ETL_Realtime_Tweets.ipynb → genera tensores para v3
-06_Model_FineTuning_Final.ipynb → entrena modelo v3 y usa el modelo v2
-07_Interface.ipynb → carga modelos + pruebas
+* 01_ETL_sentiment140.ipynb → genera tensores para v1
+* 02_Model_LSTM_Base.ipynb → entrena modelo v1
+* 03_ETL_modern.ipynb → genera tensores para v2
+* 04_Model_FineTuning_Modern.ipynb → entrena modelo v2 y usa el modelo v1
+* 05_ETL_Realtime_Tweets.ipynb → genera tensores para v3
+* 06_Model_FineTuning_Final.ipynb → entrena modelo v3 y usa el modelo v2
+* 07_Interface.ipynb → carga modelos + pruebas
 
 Todos los datasets, tensores y modelos generados por los ETLs  están organizados en:
 
@@ -59,6 +59,31 @@ Todos los datasets, tensores y modelos generados por los ETLs  están organizado
 
 📁 Drive:
 https://drive.google.com/drive/folders/1f3kpO7VQNBeD3GcKodmALRMs7T8MIZUd?usp=sharing
+
+---
+# 🎯 Cumplimiento de Competencias
+
+### ✅ 1. Uso de un framework de Deep Learning
+El proyecto utiliza **TensorFlow/Keras** para construir, entrenar y ajustar los modelos (LSTM Bidireccional, capas Dense, Dropout, optimizador Adam y callbacks).
+
+### ✅ 2. Evaluación y mejora del modelo
+Se entrenaron tres versiones del modelo:
+- **v1**: baseline con Sentiment140  
+- **v2**: fine-tuning con TweetEval + Kaggle  
+- **v3**: fine-tuning final con tweets reales  
+Cada iteración incluye evaluación, métricas y ajustes para mejorar desempeño.
+
+### ✅ 3. Uso de datos reales
+Se emplearon datasets reales y externos:
+- Sentiment140 (1.6M tweets)
+- TweetEval (HuggingFace)
+- Twitter Sentiment (Kaggle)
+- Tweets reales 2023–2025 vía API  
+Ninguno pertenece a ejemplos de clase.
+
+### ✅ 4. Predicciones mediante interfaz
+El notebook **07_Interface.ipynb** permite cargar los modelos, escribir textos y obtener predicciones en tiempo real, cumpliendo con el requisito de generar resultados desde una interfaz interactiva.
+
 
 ---
 
