@@ -1,4 +1,4 @@
-<img width="800" height="200" alt="image" src="https://github.com/user-attachments/assets/9dd03a0f-7631-46d6-9a0c-06db2bcffabb" />
+<img width="870" height="280" alt="image" src="https://github.com/user-attachments/assets/be165a41-68ab-419f-ab02-1d47a0577f53" />
 
 
 # DeepTweet – Análisis de Sentimientos con LSTM
