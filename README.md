@@ -9,7 +9,7 @@ El objetivo central es demostrar cómo un modelo clásico (entrenado con tweets 
 ---
 
 ##  Estructura del Proyecto
-
+```bash
 DeepTweet/
 │
 ├── notebooks/
@@ -20,10 +20,10 @@ DeepTweet/
 │   ├── 05_ETL_Realtime_Tweets.ipynb     # Recolección/limpieza de tweets reales (2023–2025)
 │   ├── 06_Model_FineTuning_Final.ipynb  # Entrenamiento final con tweets reales (v3)
 │   ├── 07_Interface.ipynb               # Interfaz de predicción con el modelo final
-
+│ 
 DRIVE
 https://drive.google.com/drive/folders/1f3kpO7VQNBeD3GcKodmALRMs7T8MIZUd?usp=sharing
-
+|
 ├── models/
 │   ├── deeptweet_v1_base.h5
 │   ├── deeptweet_v2_modern.h5
@@ -37,3 +37,7 @@ https://drive.google.com/drive/folders/1f3kpO7VQNBeD3GcKodmALRMs7T8MIZUd?usp=sha
 │   └── tensors_npy/
 │
 └── README.md   # (este documento)
+```
+
+
+
