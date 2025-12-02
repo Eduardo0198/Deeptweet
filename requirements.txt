@@ -1,0 +1,11 @@
+tensorflow
+tensorflow-io-gcs-filesystem
+keras
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+emoji
+nltk
+requests
